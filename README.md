@@ -27,4 +27,4 @@ Example below.
 ### Step 1: Clone the Repository
 Clone the project repository from GitHub to your local machine.
 ```bash
-[View the cvss.py script](https://github.com/CyberAllante/CVSS-Decoder/blob/main/cvss.py)
+git clone https://github.com/CyberAllante/CVSS-Decoder.git
