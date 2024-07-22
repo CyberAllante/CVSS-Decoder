@@ -1,25 +1,19 @@
-# PROJECTNAME
+# CVSS Decoder
 
 ## Objective
-[Brief Objective - Remove this afterwards]
-
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+The CVSS Decoder project aimed to create a Python script that interprets Common Vulnerability Scoring System (CVSS) strings and outputs their component values. This project was designed to enhance the understanding of CVSS metrics and provide a tool for easily decoding these strings into human-readable descriptions, which is essential for cybersecurity professionals.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
-
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Proficiency in Python programming for cybersecurity applications.
+- Understanding of CVSS v2 and v3 metrics and their implications.
+- Ability to parse and interpret standardized vulnerability scoring systems.
+- Enhanced knowledge of vulnerability assessment and management.
+- Development of scripting skills for automation in cybersecurity.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
-
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Python for scripting and automation.
+- Standard libraries like `re` for regular expression matching.
+- Command-line interface for user interaction.
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
@@ -29,3 +23,8 @@ Every screenshot should have some text explaining what the screenshot is about.
 Example below.
 
 *Ref 1: Network Diagram*
+
+### Step 1: Clone the Repository
+Clone the project repository from GitHub to your local machine.
+```bash
+git clone https://github.com/yourusername/cvss-decoder.git
